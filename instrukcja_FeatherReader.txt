@@ -1,0 +1,30 @@
+1. Sugeruję skorzystać z Linuxa. Pewnie da się wszystko zrobić na Windowsie, ale robiłam na Ubuntu więc instrukcja raczej jest pod Ubuntu pisana.
+
+2. Wymagania - programy: Android Studio w wersji bumblebee. Dodatkowo redis-server w wersji 6.2.6 (aczkolwiek inna powinna być również ok, wydaje mi się). Redisa można pobrać komendą 'sudo apt-get install redis-server'
+
+3. Po zainstalowaniu programów otwieramy Android Studio, następnie w zakładce 'File' klikamy 'Open...' i wybieramy folder FeatherReader. Otwieranie projektu zajmuje chwilę. Przy pierwszym uruchomieniu z tego co pamiętam program wygląda nieco inaczej i proponuje już gotowe templatki projektów, ale chyba nie będzie problemu ze znalezieniem opcji otworzenia projektu.
+
+4. W międzyczasie można podłączyć telefon do sieci w której znajduje się komputer. Należy również zmienić kilka opcji, aby umożliwić wgranie aplikacji. W opcjach telefonu należy wejść w zakładkę "opcje programisty" (dla każdego telefonu one chyba są gdzie indziej, ja mam w ustawieniach zaawansowanych) i należy zezwolić na programowanie przez usb. W przypadku automatycznego zaznaczenia opcji "poczekaj na debugger" najlepiej ją odznaczyć. Wtedy będzie można korzystać z aplikacji bez podłączenia telefonu do usb i bez Android Studio.
+
+5. Należy znaleźć adres ip komputera w sieci lokalnej. Najlepiej chyba ifconfig.
+
+6. Gdy już mamy adres ip, w Android Studio, z lewej strony mamy drzewko projektu. Jeśli jest zwinięte to rozwijamy, w folderze /app/java/com.example.apptry2 znajdują się klasy. Należy odworzyć LoadingActivity. Mamy tam trzy prywatne zmienne String, jedna to 'adress'. W tej zmiennej zmieniamy ip na ip naszego komputera i ewentualnie port jak się chce :P
+
+7. Podłączamy telefon przez usb. Jeśli na telefonie wyskoczy pytanie czy pozwolić tylko na ładowanie czy na przesył plików należy wybrać przesył plików. Jeśli jakoś w opcjach telefonu zablokowany jest przesył plików do i z komputera należy odblokować. 
+
+8. W Android Studio, na drugim od góry pasku, po lewej stronie(ale bliżej środka), znajdują się dwa prostokąty. W jednym powinno być 'app' ze znaczkiem Androida, w drugim - symbol telefonu i 'No Device'. Po podłączeniu telefonu w drugim prostokąciku powinna pojawić się nazwa naszego telefonu (aczkolwiek też zajmije to chwilkę). Jeśli tak się nie stało, rozwijamy okienko 'No Device' i wybieramy 'Device Manager'. Powinno to otworzyć z lewej strony dodatkowe okienko, w którym klikamy zakładkę 'Physical'. Może być tam nieco detali odnośnie tego, co może mu nie pasować.
+
+9. Koło prostokącika z nazwą telefonu znajduje się zielony trójkącik 'run'. Jeśli Android Studio widzi nasz telefon to kilkamy go i czekamy aż się projekt zbuduje i aplikacja zainstaluje.
+
+9.5*. W trakcie budowania aplikacji może wyskoczyć błąd 'cośtam SDK...' Android Studio wymaga zmiany ścieżki w jednym pliku, aczkolwiek podaje w jakim. Ten plik to local.properties i znajduje się w folderze projektu. Trzeba, w ostatniej linijce tekstu zmienić ścieżkę. Czasem Android Studio robi to sam, nie wiem od czego to zależy.
+
+10. Po zbudowaniu i zainstalowaniu aplikacji powinna się automatycznie otworzyć na telefonie. 
+
+11. Otwieramy konsolę i wpisujemy komendę 'redis-server' i zostawiamy konsolę otwartą.
+
+12. Znów otwieramy konsolę, jeśli korzystamy z wirtualnego środowiska to aktywujemy. Ja osobiście używam PyCharma. W  folderze "serwer" znajduje się kilka plików, w tym flask_server.py. należy w konsoli wpisać komendę 'export FLASK_APP=/path/to/flask_server' i następnie wpisujemy 'flask run --host=adres.ip.komputera --port=(ten sam co w LoadingActivity). Flask serwer powinien działać po tej komendzie.
+
+13. Następnie należy uruchomić kod detekcji. W tym samym folderze co wcześniej znajduje się plik featherRecognizer.py. Należy go uruchomić w środowisku z właściwymi bibliotekami.
+
+14. Tak długo jak wszystkie komponenty działają i znajdują się w jednej sieci powinna być możliwa detekcja :)
+

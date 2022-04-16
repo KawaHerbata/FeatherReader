@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="species_list">
+        <item
+            >Picus Viridis</item>
+        <item
+            >Buteo Rufinus</item>
+        <item
+            >Chenonetta Jubata</item>
+        <item
+            >Mergus Merganser</item>
+        <item
+            >Crex Crex</item>
+        <item
+            >Bubo Bubo</item>
+        <item
+            >Asio Flammeus</item>
+        <item
+            >Aquila Nipalensis</item>
+        <item
+            >Asio Otus</item>
+        <item
+            >Chloris Chloris</item>
+        <item
+            >Carduelis Carduelis</item>
+        <item
+            >Anas Querquedula</item>
+        <item
+            >Lanius Excubitor</item>
+        <item
+            >Actitis Hypoleucos</item>
+        <item
+            >Spinus Psaltria</item>
+        <item
+            >Buteo Buteo</item>
+        <item
+            >Chroicocephalus Ridibundus</item>
+        <item
+            >Aythya Ferina</item>
+        <item
+            >Calidris Alpina</item>
+        <item
+            >Acrocephalus Palustris</item>
+        <item
+            >Acrocephalus Schoenobaenus</item>
+        <item
+            >Strix Aluco</item>
+        <item
+            >Phoenicopterus Ruber</item>
+        <item
+            >Haematopus Ostralegus</item>
+        <item
+            >Milvus Milvus</item>
+        <item
+            >Chordeiles Minor</item>
+        <item
+            >Coracias Cyanogaster</item>
+        <item
+            >Circus Cyaneus</item>
+        <item
+            >Botaurus Stellaris</item>
+        <item
+            >Phoenicurus Ochruros</item>
+        <item
+            >Hirundo Rustica</item>
+        <item
+            >Anser Albifrons</item>
+        <item
+            >Tringa Totanus</item>
+        <item
+            >Regulus Regulus</item>
+        <item
+            >Aix Sponsa</item>
+        <item
+            >Anas Platyrhynchos</item>
+        <item
+            >Aegithalos Caudatus</item>
+        <item
+            >Phasianus Colchicus</item>
+        <item
+            >Polyplectron Schleiermacheri</item>
+        <item
+            >Hydrocoloeus Minutus</item>
+        <item
+            >Dendrocopos Major</item>
+        <item
+            >Pandion Haliaetus</item>
+        <item
+            >Anas Acuta</item>
+        <item
+            >Bonasia Bonasia</item>
+        <item
+            >Lanius Collurio</item>
+        <item
+            >Larus Fuscus</item>
+        <item
+            >Cuculus Canorus</item>
+        <item
+            >Phoenicopterus Roseus</item>
+        <item
+            >Calidris Canutus</item>
+        <item
+            >Rhodopechys Obsoleta</item>
+        <item
+            >Circus Aeruginosus</item>
+        <item
+            >Ciconia Ciconia</item>
+        <item
+            >Caprimulgus Climacurus</item>
+        <item
+            >Pluvialis Squatarola</item>
+        <item
+            >Larus Canus</item>
+        <item
+            >Bombycilla Garrulus</item>
+        <item
+            >Aythya Marila</item>
+        <item
+            >Tyto Alba</item>
+        <item
+            >Numenius Arquata</item>
+        <item
+            >Callonetta Leucophrys</item>
+        <item
+            >Aythya Fuligula</item>
+        <item
+            >Larus Dominicanus</item>
+        <item
+            >Mergus Serrator</item>
+        <item
+            >Alca Torda</item>
+        <item
+            >Anas Bahamensis</item>
+        <item
+            >Garrulus Glandarius</item>
+        <item
+            >Otus Scops</item>
+        <item
+            >Aquila Chrysaetos</item>
+        <item
+            >Larus Crassirostris</item>
+        <item
+            >Ardea Alba</item>
+        <item
+            >Otus Bakkamoena</item>
+        <item
+            >Pluvialis Apricaria</item>
+        <item
+            >Apus Apus</item>
+        <item
+            >Clanga Pomarina</item>
+        <item
+            >Rostratula Benghalensis</item>
+        <item
+            >Phylloscopus Collybita</item>
+        <item
+            >Perdix Perdix</item>
+        <item
+            >Aegolius Funereus</item>
+        <item
+            >Anser Brachyrhynchus</item>
+        <item
+            >Gavia Pacifica</item>
+        <item
+            >Mergellus Albellus</item>
+        <item
+            >Anser Anser</item>
+        <item
+            >Larus Cachinnans</item>
+        <item
+            >Charadrius Hiaticula</item>
+        <item
+            >Charadrius Dubius</item>
+        <item
+            >Puffinus Tenuirostris</item>
+        <item
+            >Alcedo Atthis</item>
+        <item
+            >Anser Fabalis</item>
+        <item
+            >Anas Clypeata</item>
+        <item
+            >Aix Galericulata</item>
+        <item
+            >Carduelis Cannabina</item>
+        <item
+            >Accipiter Nisus</item>
+        <item
+            >Caprimulgus Europaeus</item>
+        <item
+            >Anas Crecca</item>
+        <item
+            >Athene Noctua</item>
+        <item
+            >Melanitta Nigra</item>
+        <item
+            >Acrocephalus Scirpaceus</item>
+        <item
+            >Accipiter Gentilis</item>
+        <item
+            >Corvus Frugilegus</item>
+        <item
+            >Tetrao Urogallus</item>
+    </string-array>
+
+</resources>
